@@ -1,0 +1,21 @@
+Script started on Mon 02 Nov 2015 10:52:36 PM EST
+]0;wstro208@csitrd:~/CSC328/HW5[?1034h[wstro208@csitrd HW5]$ gcc -c sockutils.c
+]0;wstro208@csitrd:~/CSC328/HW5[wstro208@csitrd HW5]$ ar rc rock[K[K[K[K[K sockutils.a sockutils.o
+]0;wstro208@csitrd:~/CSC328/HW5[wstro208@csitrd HW5]$ ar -t sockutils.a
+sockutils.o
+]0;wstro208@csitrd:~/CSC328/HW5[wstro208@csitrd HW5]$ ranlib sockutils.a
+]0;wstro208@csitrd:~/CSC328/HW5[wstro208@csitrd HW5]$ gcc -c-[K[Kc -fpic [K[K[K[K[K[K[K[K[K[K[K[K[Krm sockutils.o
+rm: remove regular file `sockutils.o'? y
+]0;wstro208@csitrd:~/CSC328/HW5[wstro208@csitrd HW5]$ gcc -c-[K[K[K-fpic -c sockutils.c[Kc
+]0;wstro208@csitrd:~/CSC328/HW5[wstro208@csitrd HW5]$ gcc -shared -o sockutils.so co[K[Ksockutils.o
+]0;wstro208@csitrd:~/CSC328/HW5[wstro208@csitrd HW5]$ exit[K[K[K[Kls -l
+total 24
+-rw-r--r-- 1 wstro208 csit_students    0 Nov  2 22:52 HW5_WS
+-rw-r--r-- 1 wstro208 csit_students 3656 Nov  2 22:53 sockutils.a
+-rw-r--r-- 1 wstro208 csit_students 4579 Nov  2 22:09 sockutils.c
+-rw-r--r-- 1 wstro208 csit_students 3528 Nov  2 22:54 sockutils.o
+-rwxr-xr-x 1 wstro208 csit_students 8180 Nov  2 22:55 [0m[01;32msockutils.so[0m
+[m]0;wstro208@csitrd:~/CSC328/HW5[wstro208@csitrd HW5]$ exit
+exit
+
+Script done on Mon 02 Nov 2015 10:55:21 PM EST
